@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#main-div {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navigation-1 {
+    width: auto;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navigation-1 h1 {
+    width: auto;
+    height: auto;
+    cursor: default;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Berkshire Swash', cursive;
+
+    position: relative;
+}
+
+.navbar .navigation-1 h1 span {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: red;
+    font-family: 'Berkshire Swash', cursive;
+
+    position: absolute;
+    bottom: -1.2rem;
+    right: -2rem;
+}
+
+
+.navbar .navigation-2 {
+    width: 55%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navigation-2 .nav-item {
+    width: 5.5rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navigation-2 .nav-item a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar .navigation-2 .nav-item :hover {
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid red;
+}
+
+.navbar .navigation-2 :nth-child(5) {
+    width: 5.5rem;
+    height: 2.3rem;
+    background-color: red;
+    border-radius: 1.5rem;
+}
+
+.navbar .navigation-2 :nth-child(5) :hover {
+    width: 5.5rem;
+    height: 2.3rem;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+/* ============================== HOME-PAGE ============================= */
+
+#headerpage-img {
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    position: relative;
+    background-color: #000000;
+}
+
+#headerpage-img img {
+    width: inherit;
+    height: inherit;
+    opacity: 0.7;
+    filter: blur(2px);
+}
+
+#header-textarea {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-textarea h3 {
+    font-family: 'Berkshire Swash', cursive;
+    color: red;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#header-textarea h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 0.7rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+#header-textarea p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: justify;
+    color: #fff;
+}
+
+#header-textarea button {
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: 0.8rem;
+    border: 0;
+    outline: 0;
+    margin-top: 3rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: gray;
+    cursor: pointer;
+}
+
+#header-textarea button:hover {
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(0, 0, 0);
+
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+/* ============================== ABOUT-PAGE ============================= */
+
+#about-page {
+    width: 100%;
+    height: 100vh;
+}
+
+#about-page .abt-div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#about-page .abt-div .abt-div-item {
+    width: 50%;
+    height: 100%;
+    border: 2px solid #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-page .abt-div .abt-div-item h1 {
+    width: auto;
+    height: auto;
+    position: relative;
+
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(41, 37, 37);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#about-page .abt-div .abt-div-item h1 span {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: -1rem;
+    right: -4rem;
+
+    font-family: 'Berkshire Swash', cursive;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#about-page .abt-div .abt-div-item p {
+    width: auto;
+    height: auto;
+    padding: 30px;
+
+    font-family: sans-serif;
+    color: rgb(41, 37, 37);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: justify;
+}
+
+#about-page .abt-div .abt-div-item button {
+    width: 8rem;
+    height: 2.5rem;
+    border: 2px solid red;
+    border-radius: 2rem;
+
+    font-family: sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+#about-page .abt-div .abt-div-item button:hover {
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
+
+#about-page .abt-div .abt-div-item img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ============================== OFFER-PAGE ============================= */
+
+#offer-page {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background: #000;
+}
+
+#offer-page img {
+    width: inherit;
+    height: inherit;
+    opacity: 0.8;
+}
+
+#offer-page #offer-red-img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 0, 0, 0.449);
+}
+
+#offer-page #offer-content {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    gap: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#offer-page #offer-content h1 {
+    width: auto;
+    height: auto;
+
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#offer-page #offer-content h3 {
+    width: auto;
+    height: auto;
+
+    font-family: 'Courgette', cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#offer-page #offer-content p {
+    width: auto;
+    height: auto;
+
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#offer-page #offer-content button {
+    width: 6rem;
+    height: 2rem;
+
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid black;
+    outline: 0;
+}
+
+/* ============================== GALLERY-PAGE ============================= */
+
+#gallery-page {
+    width: 100%;
+    height: 100vh;
+}
+
+#gallery-page .gallery-div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#gallery-page .gallery-div .gall-div-item {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery-page .gallery-div .gall-div-item h1 {
+    width: auto;
+    height: auto;
+    position: relative;
+
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(41, 37, 37);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#gallery-page .gallery-div .gall-div-item h1 span {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: -1rem;
+    right: -4rem;
+
+    font-family: 'Berkshire Swash', cursive;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#gallery-page .gallery-div .gall-div-item p {
+    width: auto;
+    height: auto;
+
+    font-family: sans-serif;
+    color: rgb(41, 37, 37);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: justify;
+    padding: 30px;
+}
+
+#gallery-page .gallery-div .gall-div-item button {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: 2px solid red;
+
+    font-family: sans-serif;
+    color: red;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+#gallery-page .gallery-div .gall-div-item button:hover {
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
+
+#gallery-page .gallery-div .gall-div-item img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+}
+
+.gallery-div-22 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.gallery-div-22 .gall-img-div {
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.gallery-div-22 .gall-img-div img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+}
+
+/* ============================== CONTACT-PAGE ============================= */
+
+#contact-page {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0909;
+    color: #fff;
+}
+
+#contact-page .contact-div {
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-page .contact-div .con-item {
+    width: 33%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#contact-page .contact-div .con-item h1 {
+    width: auto;
+    height: auto;
+    font-family: 'Berkshire Swash', cursive;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    word-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+#contact-page .contact-div .con-item h1 span {
+    width: auto;
+    height: auto;
+
+    font-family: 'Berkshire Swash', cursive;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#contact-page .contact-div .con-item p {
+    width: 80%;
+    height: auto;
+
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#contact-page .contact-div .con-item ul {
+    width: auto;
+    height: auto;
+
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
